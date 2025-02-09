@@ -41,7 +41,7 @@ function App() {
     fetchReports();
   }, []);
 
-  const BACKEND_BASE_URL = 'http://localhost:3000';
+  const BACKEND_BASE_URL = 'https://creditsea-xml-backend.onrender.com';
 
   const getCreditScoreColor = (score: number) => {
     if (score >= 750) return 'text-green-600 bg-green-50';
@@ -271,10 +271,11 @@ function App() {
                           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                             Account Number
                           </th>
-                          <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                          
                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                               Address
                             </th>
+                          <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                             Current Balance
                           </th>
                           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
