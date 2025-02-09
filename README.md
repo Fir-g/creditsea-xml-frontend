@@ -43,7 +43,6 @@ Follow these steps to set up and run the project locally.
 
 ```bash
 git clone https://github.com/Fir-g/creditsea-xml-backend.git
-cd creditsea-xml-backend
 npm install  # or yarn install
 npm run dev  # or yarn dev
 
@@ -108,5 +107,5 @@ Key dependencies used in this project:
 - **ESLint**: Linter for enforcing coding standards.
 
 ## Live Demo
-    - Check out the live demo of the application here: CreditSea Report Processor [https://creditsea-xml-assignment.netlify.app/]
+    - Check out the live demo of the application here: CreditSea Report Processor (https://creditsea-xml-assignment.netlify.app/)
 
