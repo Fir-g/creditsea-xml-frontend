@@ -10,7 +10,6 @@ CreditSea Report Processor is a web application that allows users to upload and 
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Dependencies](#dependencies)
-- [License](#license)
 
 ## Installation
 
@@ -110,6 +109,5 @@ Key dependencies used in this project:
 - **ESLint**: Linter for enforcing coding standards.
 
 ## Live Demo
-
-Check out the live demo of the application here: CreditSea Report Processor
+    - Check out the live demo of the application here: CreditSea Report Processor [https://creditsea-xml-assignment.netlify.app/]
 
