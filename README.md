@@ -55,14 +55,13 @@ Make sure you configure the .env file if required before running the backend.
 Once the backend is running, move to your frontend directory and set it up similarly:
 
 ```git clone https://github.com/Fir-g/creditsea-xml-frontend.git
-cd creditsea-xml-frontend  # If you haven’t cloned it before
+git clone https://github.com/Fir-g/creditsea-xml-frontend.git # If you haven’t cloned it before
 npm install  # or yarn install
 npm run dev  # or yarn dev
 ```
 
 Or if you've already cloned it, just navigate to the directory:
 ```
-cd path/to/frontend
 npm install  # or yarn install
 npm run dev  # or yarn dev
 ```
