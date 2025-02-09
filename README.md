@@ -17,8 +17,7 @@ CreditSea Report Processor is a web application that allows users to upload and 
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/creditsea-report-processor.git
-cd creditsea-report-processor
+git clone https://github.com/Fir-g/creditsea-xml-backend.git
 ```
 
 ### 2. Install Dependencies
@@ -37,15 +36,38 @@ npm run dev
 
 This will start the **Vite development server** and open the application in your default web browser.
 
-## Scripts
+# CreditSea XML - Setup Guide
 
-The following scripts are available:
+Follow these steps to set up and run the project locally.
 
-- **`dev`**: Starts the Vite development server.
-- **`build`**: Builds the project for production.
-- **`lint`**: Runs ESLint to lint the codebase.
-- **`preview`**: Previews the production build.
-- **`server`**: Starts the backend server using Nodemon.
+## 1. Clone & Run the Backend
+
+```bash
+git clone https://github.com/Fir-g/creditsea-xml-backend.git
+cd creditsea-xml-backend
+npm install  # or yarn install
+npm run dev  # or yarn dev
+
+```
+
+Make sure you configure the .env file if required before running the backend.
+
+## 2. Clone & Run the Frontend
+Once the backend is running, move to your frontend directory and set it up similarly:
+
+```git clone https://github.com/Fir-g/creditsea-xml-frontend.git
+cd creditsea-xml-frontend  # If you haven’t cloned it before
+npm install  # or yarn install
+npm run dev  # or yarn dev
+```
+
+Or if you've already cloned it, just navigate to the directory:
+```
+cd path/to/frontend
+npm install  # or yarn install
+npm run dev  # or yarn dev
+```
+# Now, the project should be up and running! 🚀
 
 ## Project Structure
 
